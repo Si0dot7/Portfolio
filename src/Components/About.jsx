@@ -9,10 +9,31 @@ const About = () => {
                 <img src={side1} alt='my picture' className='w-72 h-96 rounded object-cover mb-8 md:mb-0'/>
                 <div className='flex-1'>
                     <p className='text-lg mb-8'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nobis blanditiis earum ex quasi sit suscipit! Soluta illum minima ipsam. Atque, dolor corrupti voluptatem dicta quos neque commodi. Exercitationem consequuntur iure consectetur optio recusandae facere ut fuga, eum debitis ipsum eaque ullam eligendi minus numquam aliquid beatae est cumque nisi neque ratione! Aliquid maxime rerum odio necessitatibus consectetur quaerat ea impedit dolorem earum? Vel, laborum harum nam ratione cumque eligendi repudiandae, eius eaque possimus totam, dolor dolore excepturi placeat repellendus a recusandae nihil nemo dicta natus ut accusamus obcaecati quidem ipsam. Earum temporibus fuga deleniti ab nostrum. Saepe, ratione. Explicabo dolorem adipisci consequatur nemo eius culpa, deleniti nam tenetur! Non architecto quis optio odio! Iusto in minus quidem accusamus vitae itaque numquam nobis, voluptates eligendi, nostrum adipisci quod tempore amet sed natus vel, modi id? Nam doloribus blanditiis labore est libero at distinctio inventore laboriosam, esse quidem ut itaque amet recusandae, facilis, velit incidunt sed quia delectus laborum! Porro, consequatur reprehenderit nostrum consequuntur reiciendis dolore, sed voluptatem ea animi quos, possimus distinctio voluptas similique laudantium dolores aspernatur id dignissimos consectetur quas sit amet. Pariatur vitae nostrum, ut hic molestias accusamus doloribus quaerat expedita numquam voluptate, eos, modi est saepe corrupti.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At, aliquid nostrum? Non animi consectetur fugit quos. Recusandae reiciendis numquam iusto corporis laudantium, cupiditate tempore voluptas architecto aut quae beatae quos.
                     </p>
-                    <div>
-
+                    <div className='space-y-4 text-lg ml-7'>
+                        <div className='flex items-center'>
+                            <label className='font-bold text-blue-400'>C / C++ : </label>
+                            <p className='ml-2'>I use for control microcontroller such as ESP8266 , ESP32 for get data from IoT devices.</p>
+                        </div>
+                        <div className='flex items-center'>
+                            <label className='font-bold text-blue-400'>Python : </label>
+                            <p className='ml-2'>I use for control Rasberry pi 4 for create project smart home</p>
+                        </div>
+                        <div className='flex items-center'>
+                            <label className='font-bold text-blue-400'>React.js with Javascript : </label>
+                            <p className='ml-2'>main tool I use for create user interface. </p>
+                        </div>
+                        <div className='flex items-start '>
+                            <label className='font-bold text-blue-400 flex-shrink-0'>CSS : </label>
+                            <p className='ml-2'>
+                            I tried to coding it myself without copying the template because I wanted to understand each command and have a good foundation about it
+                            </p>
+                        </div>
+                        <div className='flex items-center'>
+                            <label className='font-bold text-blue-400'>Tailwind Css : </label>
+                            <p className='ml-2'>Framework I use for</p>
+                        </div>
                     </div>
                 </div>
             </div>
