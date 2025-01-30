@@ -12,7 +12,7 @@ const services=[
         id: 2,
         title: "Resume",
         description: "Resume for a comprehensive overview of myself.",
-        href:'/Resume.png',
+        href:'/Resume.pdf',
       },
       // {
       //   id: 3,
