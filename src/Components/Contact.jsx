@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaEnvelope,FaPhone,FaLine } from "react-icons/fa"
+import { FaEnvelope,FaPhone,FaLine,FaGithub  } from "react-icons/fa"
 
 function Contact() {
   return (
@@ -19,6 +19,11 @@ function Contact() {
                         <div className='mb-4 mt-8'>
                             <FaLine className='inline-block text-green-400 mr-2'></FaLine>
                             <span>Line ID: 0959436839</span>
+                        </div>
+                        <div className='mb-4 mt-8'>
+                            <FaGithub className='inline-block text-green-400 mr-2'></FaGithub>
+                            <span>Github : </span>
+                            <a href='https://github.com/Si0dot7' target='_blank'>https://github.com/Si0dot7</a>
                         </div>
                     </div>
                 </div>
