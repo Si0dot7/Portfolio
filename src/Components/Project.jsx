@@ -6,14 +6,15 @@ import quiz from '../assets/quiz.png'
 import dash from '../assets/dash.png'
 import web from '../assets/web.png'
 import susu from '../assets/susu.png'
+import scroll from '../assets/scroll.png'
 const projects=[
-    {
+      {
         id: 1,
-        name: "Website Show API-Dashboard",
-        technologies: "React.js CSS with API and Apexcharts",
-        image: dash,
-        github: "https://github.com/Si0dot7/1344_Front-end.git",
-        web:'/weblong.pdf',
+        name: "Infinite Scroll",
+        technologies: "React.js(vite) Tailwind.CSS with API",
+        image: scroll,
+        github: "https://github.com/Si0dot7/Infinite-Scroll.git",
+        web:'/scroll.pdf',
       },
       {
         id: 2,
@@ -61,6 +62,14 @@ const projects=[
         image: current,
         github: "https://github.com/Si0dot7/Currency-Inverter-useAPI-.git",
         web:'/currentlong.pdf',
+      },
+      {
+        id: 8,
+        name: "Website Show API-Dashboard",
+        technologies: "React.js CSS with API and Apexcharts",
+        image: dash,
+        github: "https://github.com/Si0dot7/1344_Front-end.git",
+        web:'/weblong.pdf',
       },
 ];
 
