@@ -7,9 +7,18 @@ import dash from '../assets/dash.png'
 import web from '../assets/web.png'
 import susu from '../assets/susu.png'
 import scroll from '../assets/scroll.png'
+import search from '../assets/search.png'
 const projects=[
       {
         id: 1,
+        name: "Search API",
+        technologies: "React.js(vite) Tailwind.CSS with API",
+        image: search,
+        github: "https://github.com/Si0dot7/Search-API.git",
+        web:'/search.pdf',
+      },
+      {
+        id: 2,
         name: "Infinite Scroll",
         technologies: "React.js(vite) Tailwind.CSS with API",
         image: scroll,
@@ -17,7 +26,15 @@ const projects=[
         web:'/scroll.pdf',
       },
       {
-        id: 2,
+        id: 3,
+        name: "Portfolio",
+        technologies: "React.js(vite) Tailwind.css and Responsive Web Design",
+        image: web,
+        github: "https://github.com/Si0dot7/Portfolio.git",
+        web:'https://portfolio-a51p.onrender.com/',
+      },
+      {
+        id: 4,
         name: "Form Register",
         technologies: "React.js CSS",
         image: form,
@@ -25,7 +42,7 @@ const projects=[
         web:'/formlong.pdf',
       },
       {
-        id: 3,
+        id: 5,
         name: "Dark & Light Mode",
         technologies: "React.js CSS",
         image: mode,
@@ -33,27 +50,12 @@ const projects=[
         web:'/modelong.pdf',
       },
       {
-        id: 4,
+        id: 6,
         name: "Quiz Game",
         technologies: "React.js CSS",
         image: quiz,
         github: "https://github.com/Si0dot7/quiz-test.git",
         web:'/quizlong.pdf',
-      },
-      {
-        id: 5,
-        name: "UX/UI Sushi Website Design",
-        technologies: "Figma",
-        image: susu,
-        web:"https://www.figma.com/design/mJwuGW9g7w0W5vSCTwPbw3/66011344-thitipan?node-id=11-2&p=f&t=7EKovvqNKKolQsTP-0",
-      },
-      {
-        id: 6,
-        name: "Portfolio",
-        technologies: "React.js(vite) Tailwind.css and Responsive Web Design",
-        image: web,
-        github: "https://github.com/Si0dot7/Portfolio.git",
-        web:'https://portfolio-a51p.onrender.com/',
       },
       {
         id: 7,
@@ -70,6 +72,13 @@ const projects=[
         image: dash,
         github: "https://github.com/Si0dot7/1344_Front-end.git",
         web:'/weblong.pdf',
+      },
+      {
+        id: 9,
+        name: "UX/UI Sushi Website Design",
+        technologies: "Figma",
+        image: susu,
+        web:"https://www.figma.com/design/mJwuGW9g7w0W5vSCTwPbw3/66011344-thitipan?node-id=11-2&p=f&t=7EKovvqNKKolQsTP-0",
       },
 ];
 
