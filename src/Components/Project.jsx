@@ -8,9 +8,27 @@ import web from '../assets/web.png'
 import susu from '../assets/susu.png'
 import scroll from '../assets/scroll.png'
 import search from '../assets/search.png'
+import sort from '../assets/sort.png'
+import crud from '../assets/crud.png'
 const projects=[
       {
-        id: 1,
+        
+        name: "Form CRUD Full-Stack",
+        technologies: "React.js(vite) moongoose Express.js Javascript.js",
+        image: crud,
+        github: "https://github.com/Si0dot7/Form-CRUD-Full-Stack.git",
+        web:'/crud.pdf',
+      },
+      {
+        
+        name: "Sort/Merge Array and Jest test",
+        technologies: "Typescript.ts Jest.js and O(nlogn)",
+        image: sort,
+        github: "https://github.com/Si0dot7/sort-and-merge-array-with-jest-test.git",
+        
+      },
+      {
+        
         name: "Search API",
         technologies: "React.js(vite) Tailwind.CSS with API",
         image: search,
@@ -18,7 +36,7 @@ const projects=[
         web:'/search.pdf',
       },
       {
-        id: 2,
+       
         name: "Infinite Scroll",
         technologies: "React.js(vite) Tailwind.CSS with API",
         image: scroll,
@@ -26,7 +44,7 @@ const projects=[
         web:'/scroll.pdf',
       },
       {
-        id: 3,
+        
         name: "Portfolio",
         technologies: "React.js(vite) Tailwind.css and Responsive Web Design",
         image: web,
@@ -34,7 +52,7 @@ const projects=[
         web:'https://portfolio-a51p.onrender.com/',
       },
       {
-        id: 4,
+      
         name: "Form Register",
         technologies: "React.js CSS",
         image: form,
@@ -42,7 +60,7 @@ const projects=[
         web:'/formlong.pdf',
       },
       {
-        id: 5,
+       
         name: "Dark & Light Mode",
         technologies: "React.js CSS",
         image: mode,
@@ -50,7 +68,7 @@ const projects=[
         web:'/modelong.pdf',
       },
       {
-        id: 6,
+        
         name: "Quiz Game",
         technologies: "React.js CSS",
         image: quiz,
@@ -58,7 +76,7 @@ const projects=[
         web:'/quizlong.pdf',
       },
       {
-        id: 7,
+       
         name: "Currency Inverter",
         technologies: "React.js CSS with API",
         image: current,
@@ -66,7 +84,7 @@ const projects=[
         web:'/currentlong.pdf',
       },
       {
-        id: 8,
+        
         name: "Website Show API-Dashboard",
         technologies: "React.js CSS with API and Apexcharts",
         image: dash,
@@ -74,7 +92,7 @@ const projects=[
         web:'/weblong.pdf',
       },
       {
-        id: 9,
+       
         name: "UX/UI Sushi Website Design",
         technologies: "Figma",
         image: susu,
@@ -88,9 +106,9 @@ const Project = () => {
         <div className='container mx-auto px-8 md:px-16 lg:px-24'>
             <h2 className='text-4xl font-bold text-center mb-12'>My Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-                {projects.map((project)=>{
+                {projects.map((project,index)=>{
                     return(
-                        <div key={project.id} className='bg-gray-800 p-6 rounded-lg hover:shadow-lg
+                        <div key={index} className='bg-gray-800 p-6 rounded-lg hover:shadow-lg
                         transform transition-transform duration-300 hover:scale-105'>
                             <img src={project.image} alt={project.name} className='rounded-lg mb-4 w-full h-48 object-cover'/>
                             <h3 className='text-2xl font-bold mb-2'>{project.name}</h3>

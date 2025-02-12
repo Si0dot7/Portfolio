@@ -8,7 +8,7 @@ const Myself = () => {
         <h1 className='text-4xl font-bold'>
             I'm {' '}
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Thitipan Sornkhot</span>
-            ,Frontend Developer
+            ,Full-Stack Developer
         </h1>
         <div className='mt-8 space-x-4'>
             <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline transform

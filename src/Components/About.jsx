@@ -9,13 +9,16 @@ const About = () => {
                 <img src={side1} alt='my picture' className='w-72 h-96 rounded object-cover mb-8 md:mb-0'/>
                 <div className='flex-1'>
                     <p className='text-lg mb-8'>
-                    <span className='ml-5'>{' '}</span>
-                    I am a passionate Frontend Developer intern with a good foundation in {' '}
-                    <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-yellow-400 to-yellow-200'>HTML, CSS, and JavaScript</span>
+                    I am a passionate Full-Stack Developer intern with a good foundation in {' '}
+                    <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-pink-400 to-yellow-500'>JavaScript, Typescript, HTML, CSS</span>
                     . I enjoy building responsive and user-friendly web applications and have experience with 
                     modern frameworks like{' '}
-                    <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-green-400 to-blue-500'>React.js, Tailwind.css</span>
-                    , Currently studying IoT engineering at king mongkut's institute of technology ladkrabang, 
+                    <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-pink-400 to-yellow-500'>React.js, Tailwind.css, Express.js </span>
+                    and database like 
+                    <span className='text-transparent bg-clip-text font-bold bg-gradient-to-r from-pink-400 to-yellow-500'> MongoDB</span>
+                    , Currently studying
+                    <span className='font-bold'> IoT engineering at king mongkut's institute of technology ladkrabang</span>
+                     , 
                     I am eager to apply my skills in real-world projects and collaborate with a real-world development team.
                     </p>
                     <div className='space-y-4 text-lg ml-7 '>
@@ -44,6 +47,31 @@ const About = () => {
                             <p>
                             Framework that I use to be more professional and beautiful 
                             I understand the functionality better after having a good foundation in css.</p>
+                        </div>
+                        <div className='flex items-start flex-col'>
+                            <label className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-300 flex-shrink-0'>Express.js : </label>
+                            <p>
+                            Framework that I use for work in backend site. </p>
+                        </div>
+                        <div className='flex items-start flex-col'>
+                            <label className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-300 flex-shrink-0'>MongoDB : </label>
+                            <p>
+                            The database I use with mongoose compass. </p>
+                        </div>
+                        <div className='flex items-start flex-col'>
+                            <label className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-300 flex-shrink-0'>Postman : </label>
+                            <p>
+                            The tool I use to test my API.</p>
+                        </div>
+                        <div className='flex items-start flex-col'>
+                            <label className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-300 flex-shrink-0'>Typescript.ts : </label>
+                            <p>
+                            I use it to organize my code more neatly and it suitable for writing OOP.</p>
+                        </div>
+                        <div className='flex items-start flex-col'>
+                            <label className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-300 flex-shrink-0'>OOP : </label>
+                            <p>
+                            I use with typescript to organize my code and make it current standard.</p>
                         </div>
                     </div>
                 </div>
