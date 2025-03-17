@@ -10,7 +10,16 @@ import scroll from '../assets/scroll.png'
 import search from '../assets/search.png'
 import sort from '../assets/sort.png'
 import crud from '../assets/crud.png'
+import lendly from '../assets/lendly.png'
 const projects=[
+      {
+        
+        name: "Lendly App",
+        technologies: "React.js(vite) moongoose Express.js Javascript.js JWT html5-qrcode",
+        image: lendly,
+        github: "https://github.com/Si0dot7/Lendly.git",
+        web:'https://lendly-five.vercel.app/',
+      },
       {
         
         name: "Form CRUD Full-Stack",
