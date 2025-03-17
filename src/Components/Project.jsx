@@ -11,23 +11,26 @@ import search from '../assets/search.png'
 import sort from '../assets/sort.png'
 import crud from '../assets/crud.png'
 import lendly from '../assets/lendly.png'
+const projectsFull=[
+  {
+    
+    name: "Lendly App",
+    technologies: "React.js(vite) moongoose Express.js Javascript.js JWT html5-qrcode",
+    image: lendly,
+    github: "https://github.com/Si0dot7/Lendly.git",
+    web:'https://lendly-five.vercel.app/',
+  },
+  {
+    
+    name: "Form CRUD Full-Stack",
+    technologies: "React.js(vite) moongoose Express.js Javascript.js",
+    image: crud,
+    github: "https://github.com/Si0dot7/Form-CRUD-Full-Stack.git",
+    web:'/crud.pdf',
+  },
+]
 const projects=[
-      {
-        
-        name: "Lendly App",
-        technologies: "React.js(vite) moongoose Express.js Javascript.js JWT html5-qrcode",
-        image: lendly,
-        github: "https://github.com/Si0dot7/Lendly.git",
-        web:'https://lendly-five.vercel.app/',
-      },
-      {
-        
-        name: "Form CRUD Full-Stack",
-        technologies: "React.js(vite) moongoose Express.js Javascript.js",
-        image: crud,
-        github: "https://github.com/Si0dot7/Form-CRUD-Full-Stack.git",
-        web:'/crud.pdf',
-      },
+      
       {
         
         name: "Sort/Merge Array and Jest test",
@@ -113,7 +116,26 @@ const Project = () => {
   return (
     <div className='bg-black text-white py-20' id='project'>
         <div className='container mx-auto px-8 md:px-16 lg:px-24'>
-            <h2 className='text-4xl font-bold text-center mb-12'>My Projects</h2>
+            <h2 className='text-4xl font-bold text-center mb-12'>My Projects Full-Stack</h2>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+                {projectsFull.map((project,index)=>{
+                    return(
+                        <div key={index} className='bg-gray-800 p-6 rounded-lg hover:shadow-lg
+                        transform transition-transform duration-300 hover:scale-105'>
+                            <img src={project.image} alt={project.name} className='rounded-lg mb-4 w-full h-48 object-cover'/>
+                            <h3 className='text-2xl font-bold mb-2'>{project.name}</h3>
+                            <p className='text-gray-400 mb-4'>{project.technologies}</p>
+                            <a href={project.github} target='_blank' className='inline-block bg-gradient-to-r from-green-400 to-blue-500
+                            text-white px-4 py-2 rounded-full'>Github</a>
+                            <a href={project.web} target='_blank' className='inline-block ml-3 bg-gradient-to-r from-pink-400 to-yellow-500
+                            text-white px-4 py-2 rounded-full'>Example</a>
+                        </div>
+                    );
+                })}
+            </div>
+        </div>
+        <div className='container mx-auto px-8 md:px-16 lg:px-24'>
+            <h2 className='text-4xl font-bold text-center my-12'>My Projects Frontend</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 {projects.map((project,index)=>{
                     return(
